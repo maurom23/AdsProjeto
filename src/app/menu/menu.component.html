@@ -1,0 +1,21 @@
+<div class="cont">
+    <div class="menu">
+        <h4>BOOKSTORE <br>COLORFUL<br> WORLD</h4>
+        <h6>CATEGORIAS</h6>
+        <ul>
+            <li><a [routerLink]="['/astronomia']" routerLinkActive="active">Astronomia</a></li>
+            <li><a [routerLink]="['/empreendedorismo']" routerLinkActive="active">Empreendedorismo</a></li>
+            <li><a [routerLink]="['/historia']" routerLinkActive="active">Historia</a></li>
+            <li><a [routerLink]="['/juvenil']" routerLinkActive="active">Juvenil</a></li>
+            <li><a [routerLink]="['/medicina']" routerLinkActive="active">Medicina</a></li>
+            <li><a [routerLink]="['/mitologia']" routerLinkActive="active">Mitologia</a></li>
+            <li><a [routerLink]="['/nutricao']" routerLinkActive="active">Nutrição</a></li>
+            <li><a [routerLink]="['/pintura']" routerLinkActive="active">Pintura</a></li>
+            <li><a [routerLink]="['/poesia']" routerLinkActive="active">Poesia</a></li>
+            <li><a [routerLink]="['/romance']" routerLinkActive="active">Romance</a></li>
+        </ul>
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>
